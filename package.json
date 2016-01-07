@@ -1,0 +1,16 @@
+{
+  "title": "tsukemas",
+  "name": "tsukemas",
+  "version": "0.0.1",
+  "description": "Add idol's name after voice actor.",
+  "main": "index.js",
+  "author": "conys",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "IDOLM@STER"
+  ]
+}
