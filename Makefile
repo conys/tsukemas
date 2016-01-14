@@ -14,7 +14,7 @@ data/idollist.js: idollist.txt
 
 clean:
 	rm -f *~
-	rm -f *.xpi
+	rm -f @*.xpi
 	rm -f data/idollist.js
 
 .PHONY: all run clean
