@@ -1,14 +1,17 @@
 {
-  "title": "tsukemas",
+  "title": "Tsukem@s",
   "name": "tsukemas",
   "version": "0.0.1",
-  "description": "Add idol's name after voice actor.",
+  "description": "声優名の横にキャラクター名を表示",
   "main": "index.js",
   "author": "conys",
   "engines": {
     "firefox": ">=38.0a1",
     "fennec": ">=38.0a1"
   },
+  "homepage": "https://github.com/conys/tsukemas",
+  "icon": "resource://tsukemas/icon/icon-48.png",
+  "icon64": "resource://tsukemas/icon/icon-64.png",
   "license": "MIT",
   "keywords": [
     "IDOLM@STER"
