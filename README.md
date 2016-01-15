@@ -7,7 +7,7 @@
 [`tsukemas.xpi`](https://github.com/conys/tsukemas/raw/master/tsukemas.xpi "tsukemas.xpi")
 
 ## これは何？
-「声優名」の横に「アイドルマスターのキャラクター名」を付け加えて表示します．
+「声優名」の横に「アイドルマスターのキャラクター名」を付け(**tsu ke**)加えて表示します(**m@s**)．
 
 "声優名 → 声優名(キャラ名) " というようにキャラクター名を付け加えます．
 
