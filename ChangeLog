@@ -24,5 +24,9 @@
 2016-02-12  conys
 
 	* tsukemas.xpi : ver 1.0.3
+	data/idollist.jsが含まれていなかったのを修正 // エラー
+
+2016-02-12  conys
+
+	* tsukemas.xpi : ver 1.0.4
 	data/idollist.jsが含まれていなかったのを修正
-	
