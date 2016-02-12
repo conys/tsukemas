@@ -20,3 +20,9 @@
 
 	* tsukemas.xpi : ver 1.0.2
 	青木志貴(二宮飛鳥)と種崎敦美(五十嵐響子)を追加
+
+2016-02-12  conys
+
+	* tsukemas.xpi : ver 1.0.3
+	data/idollist.jsが含まれていなかったのを修正
+	
