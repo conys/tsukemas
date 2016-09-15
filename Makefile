@@ -4,7 +4,7 @@ files = index.js data/tsukemas_main.js data/idollist.js package.json
 all: tsukemas.xpi
 
 run: $(files)
-	jpm run -b iceweasel
+	jpm run -b /usr/bin/firefox
 
 tsukemas.xpi: $(files)
 	jpm xpi
