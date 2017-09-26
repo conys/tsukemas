@@ -1,7 +1,7 @@
 {
   "title": "Tsukem@s",
   "name": "tsukemas",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "声優名の横にキャラクター名を表示",
   "main": "index.js",
   "author": "conys",
