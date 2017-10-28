@@ -6,8 +6,9 @@
     "description": "声優名の横にキャラクター名を表示",
 
     "icons": {
-	"48": "icon/icon-48.png",
-	"64": "icon/icon-64.png"
+	"48": "icon/icon.svg",
+	"64": "icon/icon.svg",
+	"96": "icon/icon.svg"
     },
 
     "author": "conys",
