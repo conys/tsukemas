@@ -1,19 +1,26 @@
 {
-  "title": "Tsukem@s",
-  "name": "tsukemas",
-  "version": "1.0.9",
-  "description": "声優名の横にキャラクター名を表示",
-  "main": "index.js",
-  "author": "conys",
-  "engines": {
-    "firefox": ">=38.0a1",
-    "fennec": ">=38.0a1"
-  },
-  "homepage": "https://github.com/conys/tsukemas",
-  "icon": "resource://tsukemas/icon/icon-48.png",
-  "icon64": "resource://tsukemas/icon/icon-64.png",
-  "license": "MIT",
-  "keywords": [
-    "IDOLM@STER"
-  ]
+    "manifest_version": 2,
+    "name": "tsukemas",
+    "version": "2.0.0",
+
+    "description": "声優名の横にキャラクター名を表示",
+
+    "icons": {
+	"48": "icon/icon-48.png",
+	"64": "icon/icon-64.png"
+    },
+
+    "author": "conys",
+    "developer":  {
+	"name": "conys",
+	"url": "https://github.com/conys/tsukemas"
+    },
+
+    "content_scripts": [
+	{
+	    "matches": ["<all_urls>"],
+	    "js": ["data/idollist.js", "data/tsukemas_main.js"],
+	    "run_at": "document_end"
+	}
+    ]
 }

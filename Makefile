@@ -1,20 +1,24 @@
 # makefile for firefox plugin, tsukemas.xpi
-files = index.js data/tsukemas_main.js data/idollist.js package.json
+files = data/tsukemas_main.js data/idollist.js manifest.json
+artifacts-dir = ./web-ext-artifacts
 
-all: tsukemas.xpi
+all: tsukemas.zip
 
 run: $(files)
-	jpm run -b /usr/bin/firefox
+	web-ext run
 
-tsukemas.xpi: $(files)
-	jpm xpi
+tsukemas.zip: $(files)
+	web-ext build --artifacts-dir=$(artifacts-dir)
+	mv $(artifacts-dir)/*.zip tsukemas.zip
+	rm -rf $(artifacts-dir)
 
 data/idollist.js: idollist.txt
 	python makelist.py
 
 clean:
 	rm -f *~
-	rm -f @*.xpi
+	rm -rf $(artifacts-dir)
+	rm -f tsukemas.zip
 	rm -f data/idollist.js
 
 .PHONY: all run clean
