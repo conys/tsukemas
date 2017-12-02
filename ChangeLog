@@ -90,3 +90,10 @@
 	花井美春(村上巴)
 	修正:
 	武田羅梨沙多胡の正規表現
+
+2017-12-02  conys
+
+	* tsukemas.xpi : ver 2.0.0
+	firefox 57以降対応のため
+	web-extensionに変更
+	開発環境もweb-extに変更
