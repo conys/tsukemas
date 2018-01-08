@@ -97,3 +97,10 @@
 	firefox 57以降対応のため
 	web-extensionに変更
 	開発環境もweb-extに変更
+
+2018-01-08  conys
+
+	* tsukemas.xpi : ver 2.0.1
+	* idollist.txtの更新
+	追加:
+	アイドルマスターステラステージの高橋李依(詩花)を追加
